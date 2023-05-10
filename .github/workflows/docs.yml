@@ -38,4 +38,4 @@ jobs:
 
           build_dir: docs/.vuepress/dist
         env:
-         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
