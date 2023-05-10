@@ -5,13 +5,13 @@
   "repository": "git@github.com:/mssaang33/blog.git",
   "author": "mssaang33 <mssaang33@gmail.com>",
   "license": "MIT",
-  "scripts": {
-    "docs:build": "vuepress build docs"
-  },
   "dependencies": {
     "@vuepress/client": "^2.0.0-beta.61"
   },
   "devDependencies": {
     "vuepress": "^2.0.0-beta.61"
+  },
+  "scripts": {
+    "docs:build": "vuepress build docs"
   }
 }
