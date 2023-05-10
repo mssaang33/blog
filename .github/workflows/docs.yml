@@ -26,7 +26,7 @@ jobs:
 
       # run build script
       - name: Build VuePress site
-        run: yarn docs:build
+        run: yarn vuepress build docs
 
       # please check out the docs of the workflow for more details
       # @see https://github.com/crazy-max/ghaction-github-pages
