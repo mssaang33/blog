@@ -6,7 +6,6 @@
   "author": "mssaang33 <mssaang33@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs"
   },
   "dependencies": {
