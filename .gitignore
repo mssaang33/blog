@@ -1,0 +1,40 @@
+# Default ignored files
+/shelf/
+/.idea/workspace.xml
+# Editor-based HTTP Client requests
+/httpRequests/
+# Datasource local storage ignored files
+/dataSources/
+/dataSources.local.xml
+
+# Default ignored files
+/shelf/
+/.idea/workspace.xml
+# Editor-based HTTP Client requests
+/httpRequests/
+# Datasource local storage ignored files
+/dataSources/
+/dataSources.local.xml
+node_modules
+
+# MacOS desktop services store
+.DS_Store
+
+# Log files
+*.log
+
+# Meta files
+TODOs.md
+
+# Editors
+.idea
+
+# VuePress temp directory
+.temp
+
+# Docs dist directory
+/vuepress
+
+# Typescript build dist
+packages/@vuepress/shared-utils/lib/
+packages/@vuepress/shared-utils/types/
