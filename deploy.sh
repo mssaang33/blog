@@ -5,7 +5,7 @@ set -e
 
 git pull
 git add -A
-git commit -m "$1 $2 $3 --all.sh master"
+git commit -m "feature: github action 자동배포"
 git push origin master
 
 # build
@@ -21,9 +21,9 @@ git add -A
 git commit -m 'deploy with vuepress'
 
 # if you are deploying to https://<USERNAME>.github.io
- git push -f git@github.com:mssaang33/mssaang33.github.io.git master
+# git push -f git@github.com:mssaang33/mssaang33.github.io.git master
 
 # if you are deploying to https://<USERNAME>.github.io/<REPO>
-#git push -f git@github.com:mssaang33/mssaang33.github.io.git master:gh-pages
+git push -f git@github.com:mssaang33/blog.git master:gh-pages
 
 cd -
