@@ -3,7 +3,7 @@
 # abort on errors
 set -e
 
-git pull origin master
+git pull
 git add -A
 git commit -m "feature: github action 자동배포"
 git push origin master
